@@ -119,3 +119,42 @@ footer p {
     color: #FFFFFF;
 }
 
+#grid-receitas {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 50px;
+}
+
+.item-receita img {
+    width: 345px;
+    height: 342px;
+}
+
+.conteudo-receitas {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    padding-top: 200px;
+    padding-left: 100px;
+    gap: 100px;    
+}
+
+.item-receita {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.item-receita p {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.item-receita button {
+    width: 185px;
+    height: 48px;
+    font-size: 24px;
+    color: white;
+    background-color: #176902;
+}
